@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="testng-master">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/testng-master" />
+      <root url="file://$USER_HOME$/Desktop/testng-master/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/testng-master/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
