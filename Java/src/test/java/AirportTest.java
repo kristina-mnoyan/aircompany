@@ -1,12 +1,12 @@
+import Planes.MilitaryPlane;
+import Planes.PassengerPlane;
+import Planes.Plane;
 import Planes.experimentalPlane;
 import models.ClassificationLevel;
 import models.ExperimentalTypes;
 import models.MilitaryType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import Planes.MilitaryPlane;
-import Planes.PassengerPlane;
-import Planes.Plane;
 
 import java.util.Arrays;
 import java.util.List;
@@ -81,8 +81,7 @@ public class AirportTest {
         for (MilitaryPlane militaryPlane : bomberMilitaryPlanes) {
             if ((militaryPlane.getType() == MilitaryType.BOMBER)) {
                 flag = true;
-            }
-            else {
+            } else {
                 Assert.fail("Test failed!");
             }
         }
@@ -90,12 +89,12 @@ public class AirportTest {
     }
 
     @Test
-    public void testExperimentalPlanesHasClassificationLevelHigherThanUnclassified(){
+    public void testExperimentalPlanesHasClassificationLevelHigherThanUnclassified() {
         Airport airport = new Airport(planes);
         List<experimentalPlane> experimentalPlanes = airport.getExperimentalPlanes();
         boolean hasUnclassifiedPlanes = false;
-        for(experimentalPlane experimentalPlane : experimentalPlanes){
-            if(experimentalPlane.getClassificationLevel() == ClassificationLevel.UNCLASSIFIED){
+        for (experimentalPlane experimentalPlane : experimentalPlanes) {
+            if (experimentalPlane.getClassificationLevel() == ClassificationLevel.UNCLASSIFIED) {
                 hasUnclassifiedPlanes = true;
                 break;
             }
