@@ -20,6 +20,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kristina Mnoyan &lt;kristina_mnoyan@epam.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -100,6 +105,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="259" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1586198998347" />
+    <state x="398" y="10" key="CommitChangelistDialog2" timestamp="1586199090503">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="398" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586199090503" />
     <state x="523" y="130" key="DetectedRootsChooserDialog" timestamp="1586004448032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -128,6 +137,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586004525472" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1586199095047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586199095047" />
     <state x="498" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586004573791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
