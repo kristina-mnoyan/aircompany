@@ -4,7 +4,7 @@ import models.MilitaryType;
 
 import java.util.Objects;
 
-public class MilitaryPlane extends Plane{
+public class MilitaryPlane extends Plane {
 
     private MilitaryType militaryType;
 
@@ -21,7 +21,7 @@ public class MilitaryPlane extends Plane{
     public String toString() {
         return super.toString().replace("}",
                 ", type=" + militaryType +
-                '}');
+                        '}');
     }
 
     @Override
@@ -29,8 +29,8 @@ public class MilitaryPlane extends Plane{
         if (this == o) return true;
         if (!(o instanceof MilitaryPlane)) return false;
         if (!super.equals(o)) return false;
-        MilitaryPlane that = (MilitaryPlane) o;
-        return militaryType == that.militaryType;
+        MilitaryPlane militaryPlane = (MilitaryPlane) o;
+        return militaryType == militaryPlane.militaryType;
     }
 
     @Override
